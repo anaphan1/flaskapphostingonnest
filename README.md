@@ -118,7 +118,7 @@ To access your first pane, type in:
 Still in the first pane, run your app using `gunicorn`:
 
 ```bash
-gunicorn -b :<your_port_above_10000> run:app
+gunicorn -b :<your_port_that_you_remembered> run:app
 ```
 
 Make sure `run.py` looks like:
